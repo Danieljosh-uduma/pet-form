@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #1f1d1d;
+}
+
+.form-parent {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 470px;
+    height: 650px;
+    padding: 10px 20px;
+    background-color: #1f1d1d;
+    /* border: 2px solid green; */
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px  rgb(245, 245, 245, 0.5);
+}
+form h2 {
+    font-size: 44px;
+    font-weight: 600;
+    color: rgb(6, 205, 6);
+    text-align: center;
+    margin: 30px 0;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 20px auto;
+}
+form label {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(1, 192, 1);
+    margin-bottom: 10px;
+}
+input {
+    /* height: 50px; */
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: rgb(167, 237, 167);
+    font-size: 16px;
+    background-color: rgba(0,0,0,0.7);
+}
+input::placeholder {
+    color: rgb(167, 237, 167, 0.6);
+}
+
+select {
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0.7);
+    color: rgb(167, 237, 167);
+}
+textarea {
+    height: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0.7);
+    color: rgb(167, 237, 167);
+}
+textarea::placeholder {
+    color: rgb(167, 237, 167, 0.6);
+}
+button {
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto;
+    background-color: rgb(1, 192, 1);
+    border: none;
+    border-radius: 30px;
+}
+button:active {
+    background-color: rgb(167, 237, 167);
+}
+
